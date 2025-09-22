@@ -46,7 +46,7 @@ button {
 
 section {
     margin-top: 10svh;
-    width: 90%;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,14 +55,14 @@ section {
     overflow: hidden;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
     section {
         width: 900px;
     }
 }
 
 .card-container {
-    flex: 1;
+    flex: 0 0 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
