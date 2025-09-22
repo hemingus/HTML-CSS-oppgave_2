@@ -1,0 +1,48 @@
+body {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-grey: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: l
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+}
+
+p, button {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    height: 500px;
+    padding: 3svw;
+}
+
+.card-sedans {
+    background: var(--bright-orange);
+}
+
+.card-suvs {
+    background: var(--dark-cyan);
+}
+
+.card-luxury {
+    background: var(--very-dark-cyan);
+}
